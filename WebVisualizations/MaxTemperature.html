@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>WebVisualizations</title>
+  <title>Comparisons</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -31,12 +31,16 @@
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Dropdown
           </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="MaxTemperature.html">Max Temperature</a>
-            <a class="dropdown-item" href="Humidity.html">Humidity</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
-            <a class="dropdown-item" href="WindSpeed.html">Wind Speed</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="MaxTemperature.html">Max Temperature</a>
+                <a class="dropdown-item" href="Humidity.html">Humidity</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+                <a class="dropdown-item" href="WindSpeed.html">Wind Speed</a>
+              </div>
+              <li class="nav-item">
+                <a class="nav-link" href="Weather_data_table.html">Data</a>
+              </li>
           </div>
         </li>
         <li class="nav-item">
@@ -50,8 +54,34 @@
     </div>
   </nav>
 
-<h1>Summary: Latitude vs. X</h1>
 
 </body>
+
+<div class = "col-md-1">
+    </br>
+    </br>
+</div>
+</div>
+
+<div class= "row">
+    <div class = "col-lg-6">
+    </br>
+    <a target = "_blank" href = "Images/latitudevs_maxtemp.png">
+    <img src = "Images/latitudevs_maxtemp.png"
+    alt = "Maximum Temperatures vs Latitude" height = "600" width = "800">
+    </a>
+    </div>
+
+</div>
+</br></br>
+</div class = "col-lg-6">
+<p class = "description"> The Latitude vs Max Temperature graph shows that locations closer to the equator generally have higher temperatures, with a plateauing effect at around 20 degrees north and south of the equator. In this dataset, the northern latitudes tend to have a higher max temperature than the southern latitudes, reflective of the fact that was still summer in the northern hemisphere at the time of this analysis. There were also a greater range of max temperatures at around 20 degrees, whereas a greater percentage of cities closer to the equator maintained a higher temperature. Some areas in the 20 degrees latitude range are hotter than the equator depending on the presence of humidity or lack thereof.
+    </br></br>
+  Use the navigation bar or click on the images in the visualations form more graphs.
+</p>
+</div>
+</div>
+
+</html>
 
 </html>
